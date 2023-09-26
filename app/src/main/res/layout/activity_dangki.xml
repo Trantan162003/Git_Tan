@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dangki">
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="481dp"
+        android:background="@drawable/c_edt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColorHint="#F3EDED"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/c_edt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#B2FFFFFF"
+        android:textColorHint="#F3EEEE"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/button"
+        android:text="Sign up"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="583dp"
+        android:text="SIGN UP"
+        android:textColor="#2196F3"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="251dp"
+        android:background="@drawable/c_edt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textPassword"
+        android:textColor="#B2FFFFFF"
+        android:textColorHint="#F3EEEE"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="329dp"
+        android:background="@drawable/c_edt"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Retype your password"
+        android:inputType="textPassword"
+        android:textColor="#B2FFFFFF"
+        android:textColorHint="#F3EEEE"
+        android:textSize="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="174dp"
+        android:text="Tôi đồng ý với điều khản và dịch vụ." />
+
+</RelativeLayout>
